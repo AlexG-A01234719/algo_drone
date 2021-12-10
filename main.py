@@ -13,7 +13,6 @@ import djitellopy as tello
 import KeyPressModule as kp
 
 # Load model from PyTorch Hub
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s', force_reload=True)
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt')  # Path to custom model weights
 
 # Intitialize drone
