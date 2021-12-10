@@ -52,4 +52,4 @@ The drone can be controlled with the following keyboard commands:
 *Important step before the first usage*: Unfortunately, one pitfall is that the drone needs a wifi connection to enable control via the device. As the model is loaded of PyTorch Hub, make sure to run the program once with an internet connection. Thus, the model can run from the cache when connected to the drone.  
 
 ### **Final notes**
-The project is in progress and needs and not aligned with the developing code base of the official YOLOv5 repo. The project was my final project at the [SPICED Data Science Bootcamp](https://www.spiced-academy.com/en/program/data-science).
+This project was modified to work for our specific algorithm. Original repository of this code [here](https://github.com/saskia1001/yolov5_drone).
